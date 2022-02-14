@@ -1,6 +1,7 @@
 #include <iostream>
+#include <math.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/* Bir arkadasimin onerisi uzerine tasaklari sikin basinin karekoku kadar satır assa indirdik daha da harika oldu*/
 
 int main() {
 	int i,j;
@@ -41,7 +42,7 @@ int main() {
 		printf("\n");
 	}
 	
-	for(i=0;i<n-1;i++)
+	for(i=0;i<sqrt(n);i++)
 	{
 		printf(" ");
 		for(j=0;j<n;j++)
