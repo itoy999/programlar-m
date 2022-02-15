@@ -1,7 +1,7 @@
 #include <iostream>
 #include <math.h>
 
-/* Son duzenlemeyle tasaklar artik yuvarlak*/
+/* Bir arkadasimin onerisi uzerine tasaklari sikin sapinin karekoku kadar satır assa indirdik daha da harika oldu*/
 
 int main() {
 	int i,j;
@@ -47,7 +47,7 @@ int main() {
 	{
 		printf("O");
 	}
-	for(j=0;j<(6*n-3)/4;j++)
+	for(j=0;j<(4*n-2)/4+3;j++)
 	{
 		printf(" ");
 	}
@@ -66,7 +66,7 @@ int main() {
 		printf("O");
 	}
 	printf("O");
-	for(j=0;j<((6*n-3)/4)-2;j++)
+	for(j=0;j<((4*n-2)/4)+1;j++)
 	{
 		printf(" ");
 	}
@@ -83,7 +83,7 @@ int main() {
 	{
 		printf("O");
 	}
-    for(i=0;i<(6*n-3)/4;i++)
+    for(i=0;i<(4*n-2)/4+3;i++)
     {
     	printf(" ");
 	}
