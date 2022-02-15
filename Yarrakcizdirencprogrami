@@ -2,6 +2,7 @@
 #include <math.h>
 
 /* Bir arkadasimin onerisi uzerine tasaklari sikin sapinin karekoku kadar satır assa indirdik daha da harika oldu*/
+/* Sonuna bir seyler ekledim*/
 
 int main() {
 	int i,j;
@@ -56,5 +57,17 @@ int main() {
 		}
 		printf("\n");
 	}
-printf("\nAFIYET OLSUN");
+if(k>10)
+{
+if((k/n)>3)
+printf("Bu cok ince, neyine yetecek?");
+else if(k/n<1)
+printf("Cok kalin.");
+else
+printf("Duzgun bir seciminiz var.");
+}
+else
+{
+	printf("Bu neye yeter lan");
+}
 }
