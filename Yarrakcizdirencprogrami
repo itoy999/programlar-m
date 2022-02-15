@@ -1,8 +1,7 @@
 #include <iostream>
 #include <math.h>
 
-/* Bir arkadasimin onerisi uzerine tasaklari sikin sapinin karekoku kadar satır assa indirdik daha da harika oldu*/
-/* Sonuna bir seyler ekledim*/
+/* Son duzenlemeyle tasaklar artik yuvarlak*/
 
 int main() {
 	int i,j;
@@ -43,20 +42,56 @@ int main() {
 		printf("\n");
 	}
 	
-	for(i=0;i<sqrt(k);i++)
+	printf(" ");
+	for(j=0;j<(2*n-1)/4;j++)
+	{
+		printf("O");
+	}
+	for(j=0;j<(6*n-3)/4;j++)
 	{
 		printf(" ");
-		for(j=0;j<n;j++)
-		{
-			printf("*");
-		}
-		printf(" ");
-		for(j=0;j<n;j++)
-		{
-			printf("*");
-		}
-		printf("\n");
 	}
+	for(j=0;j<(2*n-1)/4;j++)
+	{
+			printf("O");
+		
+	}
+	
+	printf("\n");
+	for(i=0;i<(2*n-1)/4;i++)
+	{
+	printf("O");
+	for(j=0;j<(2*n-1)/4;j++)
+	{
+		printf("O");
+	}
+	printf("O");
+	for(j=0;j<((6*n-3)/4)-2;j++)
+	{
+		printf(" ");
+	}
+	printf("O");
+	for(j=0;j<(2*n-1)/4;j++)
+	{
+		printf("O");
+	}
+	printf("O");
+	printf("\n");
+	}
+	printf(" ");
+	for(i=0;i<(2*n-1)/4;i++)
+	{
+		printf("O");
+	}
+    for(i=0;i<(6*n-3)/4;i++)
+    {
+    	printf(" ");
+	}
+	for(i=0;i<(2*n-1)/4;i++)
+	{
+		printf("O");
+	}
+	printf("\n");
 if(k>10)
 {
 if((k/n)>3)
@@ -70,4 +105,5 @@ else
 {
 	printf("Bu neye yeter lan");
 }
+
 }
