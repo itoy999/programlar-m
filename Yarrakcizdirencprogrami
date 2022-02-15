@@ -1,7 +1,7 @@
 #include <iostream>
 #include <math.h>
 
-/* Bir arkadasimin onerisi uzerine tasaklari sikin basinin karekoku kadar satır assa indirdik daha da harika oldu*/
+/* Bir arkadasimin onerisi uzerine tasaklari sikin sapinin karekoku kadar satır assa indirdik daha da harika oldu*/
 
 int main() {
 	int i,j;
@@ -42,7 +42,7 @@ int main() {
 		printf("\n");
 	}
 	
-	for(i=0;i<sqrt(n);i++)
+	for(i=0;i<sqrt(k);i++)
 	{
 		printf(" ");
 		for(j=0;j<n;j++)
